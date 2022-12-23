@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+nav .nav-bar {
+    display: flex !important;
+    background: rgb(32, 32, 32);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    height: 4rem;
+}
+
+nav .nav-brand h4 {
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+.header {
+    padding: 1rem 5% 2rem;
+    background: #363535;
+}
+
+.header img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.header .detail {
+    text-align: justify;
+    padding: 0 3%;
+    color: #fff;
+}
+
+.header .detail h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.header .content-btn {
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+.header .content-btn a{
+    width: 15rem !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.skills {
+    padding: 4.5rem 7%;
+}
+
+.skills .skill-heading {
+    width: 100%;
+    height: 3.5rem;
+    background: blue;
+    color: #fff;
+    border-radius: 60px;
+    text-align: center;
+    padding-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.skills .pro-img {
+    width: 100%;
+    height: 17rem;
+}
+
+.about,
+.missions {
+    margin-top: 1rem;
+    padding: 4.5rem 7%;
+    text-align: justify;
+}
+
+.missions .skill-focus {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.missions .ico {
+    border: 3px solid #e2e0e0;
+    color: #e2e0e0;
+    margin-top: .5rem;
+    margin-right: 1rem;
+    padding: .2rem;
+    border-radius: 10px;
+}
+
+.missions .skill-focus .txt {
+    color: #e2e0e0;
+}
+
+footer {
+    height: 5rem;
+    background: rgb(22, 22, 22);
+    color: #fff;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
